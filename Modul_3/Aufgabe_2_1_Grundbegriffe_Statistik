@@ -1,0 +1,31 @@
+Aufgabe 2.1 - Grundbegriffe der Statistik
+San Francisco Library Usage Data
+
+1. Wie viele Merkmale besitzt der Datensatz? == 11
+2. Wie groß ist die Stichprobengröße des Datensatzes? == 450.359
+3. Wer oder was sind die Merkmalsträger? == Benutzer,die verschiedenen Typen zugeordnet sind (zB. Adult, Senior, Teacher Card, Juvenile, Teen)
+4. Von wann bis wann wurden die Daten erhoben? == December 2, 2016 - March 25, 2024
+5. Wie lässt sich die Grundgesamtheit beschreiben? Handelt es sich um eine Vollerhebung?
+    - Grundgesamtheit == Menge aller statistischen Einheiten, über die man Aussagen gewinnen möchte
+    - Es handelt sich bei dem Datensatz um eine Erhebung der aktiven Nutzer der Bibliothek
+6. Welche Merkmale sind stetig? Welche diskret?
+    - Diskrete Merkmale == Merkmale mit endlich vielen Ausprägungen (z.B. Anzahl der Kinder in einem Haushalt) oder mit abzählbar unendlich vielen Ausprägungen (z.B. Anzahl der Würfe mit einem Würfel, bis eine Sechs erscheint)
+    - Stetige Merkmale == Merkmale, die alle Werte eines Intervalles annehmen können (z.B. Körpergröße)
+    
+Diskrete Merkmale im Datenset: Patron Type, Total Checkouts, Total Renewals, Home Library Definition, Home Library Definition, Circulation Active Month, Circulation Active Year, Notice Preference, Within San Francisco County
+Stetige Merkmale im Datenset: Age Range, Year Patron Registered
+
+7. Welchem Skalenniveau entsprechen die einzelnen Merkmale (Nominal-, Ordinal- oder Metrische Skala)?
+    - Nominalskaliert == Ausprägungen sind Namen oder Kategorien, die den Einheiten zugeordnet werden (z.B. Farben, Religionszugehörigkeit, Gehaltsklassen)
+    - Ordinalskaliert == Ausprägungen eines Merkmals können geordnet werden, aber ihre Abstände sind nicht interpretierbar (zB. Schulnoten)
+    - Intervallskaliert == die Abstände zwischen den Ausprägungen, die Zahlen sind, können interpretiert werden (z.B: Temperatur)
+    - Verhältnisskaliert == Ausprägungen besitzen sinnvollen absoluten Nullpunt
+    - Kardinalskaliert == metrisch, Intervall- und Verhältnisskala
+    
+Nominalskaliert: Patron Type Definition, Age Range, Home Library Definition, Notice Preference Definition, Within San Francisco County
+Ordinalskaliert: Circulation Active Month, Circulation Active Year, Year Patron Registered
+Intervallskaliert: Total Renewals, Total Checkouts
+Verhältnisskaliert
+    
+8. Enthält der Datensatz fehlende Werte? Nein
+9. Handelt es sich um Querschnitts-, Längsschnitss- oder Paneldaten? Längsschnitsdaten
